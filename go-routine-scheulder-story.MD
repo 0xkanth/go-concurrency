@@ -45,4 +45,4 @@ This process, optimized in Go 1.26 (with a 20-30% cgo boost as per the X posts),
 - **Tune with Care**: Adjust `GOMAXPROCS` for cores and `GOMAXTHREADS` (default 10,000) if needed, but let the runtime do the heavy lifting.
 
 ## The Takeaway
-As a Java developer, transitioning to Go feels like upgrading from a manual stage crew to a high-tech theater with a brilliant director (the runtime). The `P`s, `M`s, and `G`s work together, with the runtime ensuring the show goes on, even when an actor (goroutine) waits for a prop (I/O). Dive in, experiment with `go func()`, and watch the magic unfold—happy coding!
+As a Java developer, transitioning to Go feels like upgrading from a manual stage crew to a high-tech theater with a brilliant director (the runtime). The `P`s, `M`s, and `G`s work together, with the runtime ensuring the show goes on, even when an actor (goroutine) waits for a prop (I/O). Dive in, experiment with `go func()`
